@@ -1,0 +1,57 @@
+[
+  {
+    "name": "tex1_mod2_adomain_1330-1903",
+    "length": 573,
+    "seconds": 77.6,
+    "mean_plddt": 93.5,
+    "frac_plddt_ge70": 0.953,
+    "ptm": 0.944,
+    "cif": "results/tex1_mod2_adomain_1330-1903.cif"
+  },
+  {
+    "name": "tex1_mod13_adomain_13329-13882",
+    "length": 553,
+    "seconds": 68.2,
+    "mean_plddt": 94.0,
+    "frac_plddt_ge70": 0.96,
+    "ptm": 0.961,
+    "cif": "results/tex1_mod13_adomain_13329-13882.cif"
+  },
+  {
+    "name": "alars_O58035_1-495_aminoacylation_module",
+    "length": 495,
+    "seconds": 47.4,
+    "mean_plddt": 94.1,
+    "frac_plddt_ge70": 0.972,
+    "ptm": 0.943,
+    "cif": "results/alars_O58035_1-495_aminoacylation_module.cif",
+    "pocket_plddt": {
+      "192": 93.9,
+      "193": 95.2,
+      "213": 97.8,
+      "215": 98.7,
+      "216": 98.5,
+      "217": 94.3,
+      "249": 98.8
+    }
+  },
+  {
+    "name": "chutrakul_AY513580_Adomain_669-1105_DLGYLAGV_truncA9A10",
+    "length": 437,
+    "seconds": 34.8,
+    "mean_plddt": 96.1,
+    "frac_plddt_ge70": 1.0,
+    "ptm": 0.984,
+    "cif": "results/chutrakul_AY513580_Adomain_669-1105_DLGYLAGV_truncA9A10.cif",
+    "pocket_plddt": {
+      "211": 98.1,
+      "212": 98.1,
+      "215": 98.8,
+      "252": 97.5,
+      "273": 98.8,
+      "275": 98.7,
+      "296": 98.9,
+      "304": 98.5
+    }
+  }
+]

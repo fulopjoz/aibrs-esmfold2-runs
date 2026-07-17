@@ -1,0 +1,16 @@
+{
+  "aib": {
+    "mean_plddt": 91.2,
+    "ptm": 0.953,
+    "iptm": 0.97,
+    "seconds": 68.8,
+    "cif": "results/alars_active_site_aib.cif"
+  },
+  "ala": {
+    "mean_plddt": 91.3,
+    "ptm": 0.953,
+    "iptm": 0.976,
+    "seconds": 64.0,
+    "cif": "results/alars_active_site_ala.cif"
+  }
+}
