@@ -10,6 +10,13 @@ where ESMFold2 already works on GPU (~2 min/fold). Author the script here, run i
     Tex1 (Q8NJX1) Aib-candidate A-domains. **B2 fold-check**: do they fold standalone (mean pLDDT, pTM)?
   - `alars_O58035_1-495_aminoacylation_module` (495 aa): the AlaRS aminoacylation module (ESMFold v1 gave
     1.64 A vs full-length; this re-checks it at ESMFold2 fidelity + reports the 7 pocket-residue pLDDTs).
+  - `chutrakul_AY513580_Adomain_669-1105_DLGYLAGV_truncA9A10` (437 aa): the excised trichotoxin
+    (Chutrakul 2005, GenBank AY513580) peptaibol A-domain — **Track B task-1 confirmatory fold-check** of
+    the local ESMFold v1 first-pass. Stachelhaus code DLGYLAGV (Aib-module LGYLAG family); reports its 8
+    pocket-residue pLDDTs. CAVEAT: partial cds, so the A9-A10 small subdomain is **truncated** (missing
+    ~116 aa vs the complete Tex1 mod2 homolog) — a low C-terminal / small-subdomain pLDDT is expected and
+    is a truncation artifact, not evidence against the A-domain fold. Compare its large-subdomain pLDDT to
+    Tex1 mod2 (complete) folded in the same run.
 - `fold_targets.py` — folds each target monomer, writes `results/<name>.cif` + `results/results.json`.
 - `fold_with_ligand.py` — active-site co-fold: AlaRS module + ATP + 2 Mg + Aib (SMILES), vs Ala control.
   The ligand-aware experiment ESMFold2 enables. Honest caveat: a co-fold is a POSE model, not activation
